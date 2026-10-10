@@ -1,0 +1,13 @@
+{
+  "name": "liberrated",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "start": "npm run build -w client && npm start -w server",
+    "test": "npm test -w server"
+  }
+}
