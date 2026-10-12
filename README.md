@@ -4,7 +4,7 @@
 
 **Find places that meet your accessibility and allergen needs, confirmed by people who've been there. Businesses can see what customers are asking for.**
 
-<!-- Live demo: add the link here once deployed. -->
+**[Try the live demo →](https://web-production-dc95fd.up.railway.app)** · [Owner dashboard demo](https://web-production-dc95fd.up.railway.app/#/owner/6a0000000000000000000001/demo-owner)
 
 ![Search: needs on the left, ranked results on a map](docs/search.png)
 
