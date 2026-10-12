@@ -36,9 +36,10 @@ I built this working prototype before my interview with LiberRated to show how I
 
 ## What I'd do next
 
-- Business verification, so only real owners can claim a listing.
-- Photo uploads on reviews as stronger proof that a feature exists.
-- An automated accessibility test (axe-core) in CI to keep the 0-violations result from slipping.
+- **Stronger trust.** Require several confirmations, or a photo, before a feature shows as confirmed, and weight reviews from verified visitors higher.
+- **Abuse protection.** Rate-limit reviews and requests, and add light sign-in so one person can't inflate counts.
+- **Verified owners.** Confirm that whoever claims a listing really runs the business.
+- **Accessibility checks in CI**, so the 0-violations result can't quietly slip.
 
 ## Run it
 
