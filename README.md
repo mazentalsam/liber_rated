@@ -49,8 +49,6 @@ npm start          # builds the client and serves everything on http://localhost
 
 With no `MONGODB_URI` set, the server starts a local MongoDB in `server/.data` and loads fictional demo businesses. Delete that folder to reset. Set `MONGODB_URI` to use a real database, and `ANTHROPIC_API_KEY` to turn on AI summaries.
 
-Or deploy your own copy: [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/mazentalsam/liber_rated)
-
 Try the demo owner dashboard at `/#/owner/6a0000000000000000000001/demo-owner`.
 
 Development: `npm run dev -w server` and `npm run dev -w client` in two terminals (Vite proxies `/api`). Tests: `npm test`.
