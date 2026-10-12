@@ -34,7 +34,7 @@ export default function App() {
       <header className="banner">
         <a href="#" className="skip" onClick={skip}>Skip to content</a>
         <div className="banner-inner">
-          <a href="#/" className="logo" aria-label="Liber Rated, home">Liber<br />Rated</a>
+          <a href="#/" className="logo" aria-label="LiberRated, home">Liber<br />Rated</a>
           <nav aria-label="Main">
             <a href="#/" aria-current={current('')}>Find places</a>
             <a href="#/business" aria-current={current('business')}>For businesses</a>
